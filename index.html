@@ -8,7 +8,7 @@
     <meta name="force-rendering" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta http-equiv="Cache-Control" content="no-transform">
-    <link rel="stylesheet" href="bistu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/cropperjs@1/dist/cropper.min.css,npm/mdui@1/dist/css/mdui.min.css">
     <title>北京信息科技大学85周年校庆头像框</title>
     <script>navigator.userAgent.match(/qq\/[0-9]/i)&&(location.href="https://c.pc.qq.com/middleb.html?pfurl="+encodeURIComponent(location.href));</script>
 </head>
@@ -26,7 +26,7 @@
             <div
                 id="cropper-wrapper"
                 class="mdui-shadow-3 mdui-hoverable mdui-m-y-2"
-                style="max-width:50%;max-height:240px"
+                style="max-width:100%;max-height:240px"
             >
                 <img id="cropper-image" class="mdui-hidden" crossorigin="anonymous">
             </div>
@@ -53,16 +53,17 @@
             <div
                 id="template-list"
                 class="mdui-m-y-2"
-                style="flex-grow:1;max-width:50%;overflow-x:auto;white-space:nowrap"
+                style="flex-grow:1;max-width:100%;overflow-x:auto;white-space:nowrap"
             ></div>
             <button
                 id="upload-image-btn"
                 class="mdui-btn mdui-btn-block mdui-ripple mdui-color-theme-accent"
+                style="max-width:50%"
             >选择图片</button>
             <button
                 id="generate-btn"
                 class="mdui-btn mdui-btn-block mdui-ripple mdui-color-theme-accent"
-                style="color:#fff!important"
+                style="color:#fff!important;max-width:50%"
             >生成头像</button>
         </div>
         <div id="result" class="mdui-hidden">

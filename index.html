@@ -15,21 +15,18 @@
 <body class="mdui-theme-primary-red mdui-theme-accent-red mdui-theme-layout-auto mdui-appbar-with-toolbar">
     <header class="mdui-appbar mdui-appbar-fixed">
         <div class="mdui-toolbar mdui-color-theme">
-            <span class="mdui-typo-title" style="color:#fff!important"><center>北京信息科技大学85周年校庆头像框</center></span>
+            <span class="mdui-typo-title" style="color:#fff!important">北京信息科技大学85周年校庆头像框</span>
         </div>
     </header>
 
     <main class="mdui-container mdui-typo" style="max-width:640px">
         <div id="editor" class="mdui-hidden">
             <input id="upload-image" class="mdui-hidden" type="file" accept="image/*">
-            <button
-                id="upload-image-btn"
-                class="mdui-btn mdui-btn-block mdui-ripple mdui-color-theme-accent"
-            >选择图片</button>
+            
             <div
                 id="cropper-wrapper"
                 class="mdui-shadow-3 mdui-hoverable mdui-m-y-2"
-                style="max-width:100%;max-height:240px"
+                style="max-width:50%;max-height:240px"
             >
                 <img id="cropper-image" class="mdui-hidden" crossorigin="anonymous">
             </div>
@@ -56,8 +53,12 @@
             <div
                 id="template-list"
                 class="mdui-m-y-2"
-                style="flex-grow:1;max-width:100%;overflow-x:auto;white-space:nowrap"
+                style="flex-grow:1;max-width:50%;overflow-x:auto;white-space:nowrap"
             ></div>
+            <button
+                id="upload-image-btn"
+                class="mdui-btn mdui-btn-block mdui-ripple mdui-color-theme-accent"
+            >选择图片</button>
             <button
                 id="generate-btn"
                 class="mdui-btn mdui-btn-block mdui-ripple mdui-color-theme-accent"

@@ -1,0 +1,20 @@
+{
+    "avatarSize": 800,
+    "initialImage": {
+        "webp": "https://ae01.alicdn.com/kf/Ha99b7df48097484b90d7420566942d5bx.jpg",
+        "legacy": "https://ae01.alicdn.com/kf/Hed78e27fcc7b49319e7ad7ff00972a3dU.png"
+    },
+    "templates": [
+        {
+            "src": {
+            "legacy": "img/17.png"
+            },
+            "preview": {
+                "legacy": "img/preview/17.png"
+            },
+            "example": {
+                "legacy": "img/example/17.png"
+            }
+        }
+    ]
+}

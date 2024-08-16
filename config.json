@@ -47,16 +47,5 @@
                 "legacy": "https://ae01.alicdn.com/kf/H5ed8b457f5e046089844c528568669b61.jpg"
             }
         }
-        //{
-        //    "src": {
-        //        "legacy": "img/17.png"
-        //    },
-        //    "preview": {
-        //        "legacy": "img/preview/17.png"
-        //    },
-        //    "example": {
-        //        "legacy": "img/example/17.png"
-        //    }
-        //}
     ]
 }
